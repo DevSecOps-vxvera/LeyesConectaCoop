@@ -1,0 +1,18 @@
+PÁGINA DE VIDEOS · MÓDULO 1
+
+La carpeta contiene el marco visual de una página estática para GitHub Pages. Copia en esta misma carpeta los dos archivos MP4 con estos nombres exactos:
+
+Ley Ciberseguridad Animacion.mp4
+LOPDP Cooperativas.mp4
+
+La página utiliza nombres relativos; por eso funcionará al publicar index.html y los videos juntos en el mismo directorio. Si cambias los nombres, actualiza también los atributos src de <source> en index.html.
+
+Publicar usando un repositorio existente:
+1. Copia el contenido de esta carpeta a la raíz del repositorio GitHub Pages (index.html, styles.css y ambos MP4).
+2. En Terminal, dentro del repositorio, ejecuta:
+   git add .
+   git commit -m "Agrega videos del módulo 1"
+   git push
+3. En GitHub, configura Settings > Pages para servir desde la rama y carpeta correctas (por ejemplo, main y / (root)).
+
+Los MP4 no estaban adjuntos como archivos de video al preparar esta página; la captura solo mostraba sus nombres. Deben copiarse aquí antes de publicar para que puedan reproducirse.
